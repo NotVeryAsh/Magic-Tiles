@@ -1,0 +1,3 @@
+To set this up, create a blueprint class based on TileSpawner and drag it into the world (I don't know of a better way as of now)
+And also create a blueprint class based on Tile. Then go into the Tile blueprint class and adjust the TriggerVolume Box Collision so it is the same size as the same
+(The player needs to be be inside the trigger volume so the TileSpawner knows which tile they are in at all times
